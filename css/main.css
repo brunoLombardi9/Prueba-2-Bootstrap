@@ -7830,8 +7830,8 @@ p {
     font-size: 5rem; } }
 
 .imagenLogo {
-  width: 100px;
-  height: 100px; }
+  width: 80px;
+  height: 80px; }
 
 header {
   background-color: black; }
@@ -7899,3 +7899,24 @@ header {
 
 .accordion-button:focus {
   box-shadow: 0 0 0 0rem #030305; }
+
+footer {
+  background-color: black; }
+
+.textoLogoContenedor {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.textoLogo {
+  margin-bottom: 0;
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-family: 'Smooch', cursive;
+  font-size: 4rem; }
+
+.encabezadoListaFooter {
+  font-size: 1.5rem;
+  text-decoration: underline; }
+
+.list-group-item {
+  background-color: black; }
