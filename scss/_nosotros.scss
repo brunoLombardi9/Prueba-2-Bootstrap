@@ -1,0 +1,18 @@
+.noPaddingIzqDer{
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.botonNosotros , .botonNosotrosOscuro{
+  border-radius: 1rem;
+}
+
+.botonNosotrosOscuro:hover{
+  color: $dark;
+  background-color: $light;
+  border-color: $dark;
+}
+
+.botonNosotrosOscuro:focus{
+    box-shadow: 0 0 0 0.25rem $dark;
+}

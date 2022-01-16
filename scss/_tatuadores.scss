@@ -1,0 +1,33 @@
+.card {
+  border-radius: 1rem;
+  margin-right:  10px;
+  margin-left: 10px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.botonEspacio {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.cardAnimacion {
+  transition: all 0.35s ease;
+}
+
+.cardAnimacion:hover {
+  transform: scale(1.050);
+}
+
+.hoverBoton:hover{
+background-color: $dark;
+border-color: $dark;
+}
+
+.hoverBoton:focus{
+  box-shadow: 0 0 0 0.25rem $white;
+}
+
+.imagenTatuador{
+height: 300px;
+}
