@@ -5,6 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/animate.css">
   <title>Prueba Bootrstrap 2</title>
 </head>
 
@@ -14,7 +15,6 @@
     <nav class="navbar navbar-expand-lg navbar-light  navbar-dark">
       <div class="container-fluid">
         <a class="navbar-brand" href="index.html"><img class="imagenLogo" src="imagenes/logoMascara.png" alt="logo hannya"></a>
-        <!-- <a class="navbar-brand" href="index.html"><p class="logo">Malafar Tattoo</p></a> -->
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -38,8 +38,8 @@
     <div class="container-fluid">
       <div class="row text-center">
         <div class="col-6 mx-auto">
-          <h1 class="text-light">Malafar Tattoo</h1>
-          <p class="text-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          <h1 class="text-light wow animate__animated animate__fadeInDown animate__slow">Malafar Tattoo</h1>
+          <p class="text-light wow animate__animated animate__fadeInDown animate__slow animate__delay-2s">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
             Ut enim ad minim veniam,</p>
         </div>
       </div>
@@ -49,12 +49,12 @@
 
   <!------------------------------------------- ABRE NOSOTROS ------------------------------------------------------->
   <section id=#nosotros>
-    <div class="container-fluid bg-dark">
+    <div class="container-fluid bg-dark ">
       <div class="row align-items-center text-center text-light">
-        <div class="col-md-6 noPaddingIzqDer">
+        <div class="col-md-6 noPaddingIzqDer wow animate__animated animate__fadeInUp animate__slow">
           <img class="img-fluid" src="imagenes/manga.jpg" alt="gente tatuada">
         </div>
-        <div class="col-md-6">
+        <div class="col-md-6 wow animate__animated animate__fadeInDown animate__slow ">
           <h2 class="mb-5">Trabajos profesionales</h2>
           <p class="mt-5 parrafo">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
             In tenetur facilis obcaecati eaque facere totam.</p>
@@ -72,8 +72,8 @@
   <section class="bg-light mb-5" id=dudas>
     <div class="container">
       <div class="row">
-        <h2 class="text-center mt-5">Dudas frecuentes</h2>
-        <div class="col mb-5">
+        <h2 class="text-center mt-5 wow animate__animated animate__fadeInDown animate__slow">Dudas frecuentes</h2>
+        <div class="col mb-5 wow animate__animated animate__fadeInDown animate__slow animate__delay-1s">
           <div class="accordion" id="accordionPanelsStayOpenExample">
             <div class="accordion-item mt-5">
               <h3 class="accordion-header" id="panelsStayOpen-headingOne">
@@ -130,11 +130,13 @@
 
   <!------------------------------------------- ABRE TATUADORES ------------------------------------------------------->
   <section id=tatuadores>
-    <div class="container-fluid">
-      <div class="row text-center justify-content-center">
+    <div class="container-fluid ">
 
 
-        <h2 class="text-light mb-5 mt-5">Tatuadores</h2>
+
+      <h2 class="text-light text-center mb-5 mt-5 wow animate__animated animate__fadeInDown animate__slow">Tatuadores</h2>
+
+      <div class="row justify-content-center wow animate__animated animate__fadeInUp animate__slow animate__delay-1s">
 
 
         <div class="col-lg-3 col-sm-6 bg-light card mb-3 pb-3 cardAnimacion">
@@ -164,8 +166,8 @@
             <button class="btn btn-primary hoverBoton botonEspacio" type="button" name="button">Ver trabajos</button>
           </div>
         </div>
-
       </div>
+
     </div>
 
   </section>
@@ -178,7 +180,7 @@
     <div class="row">
       <div class="col-4"></div>
       <div class="col-md-4 textoLogoContenedor mt-4">
-        <p class="text-light textoLogo">Malafar Tattoo</p>
+        <p class="text-light textoLogo text-center">Malafar Tattoo</p>
       </div>
 
       <div class="col-md-4 mt-5 text-center">
@@ -193,8 +195,11 @@
   </footer>
 
   <!------------------------------------------- CIERRA FOOTER ------------------------------------------------------->
-
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  <script src="js/wow.js"></script>
+  <script>
+    new WOW().init();
+  </script>
 </body>
 
 </html>
